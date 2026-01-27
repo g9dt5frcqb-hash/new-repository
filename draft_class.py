@@ -45,7 +45,7 @@ class DraftClass:
     # Generate draft prospects
     # ---------------------------------------------------------
     def generate_prospects(self):
-        from player import Player  # You will create this class next
+        from Player import Player  # You will create this class next
         
         positions = self.get_position_pool()
         
