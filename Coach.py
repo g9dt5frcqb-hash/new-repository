@@ -73,15 +73,13 @@ class Coach:
     # Generate a Gemini bio (placeholder)
     # ---------------------------------------------------------
     def generate_bio(self, gemini_client=None):
-        """
-        Replace this with your Gemini API call.
-        """
-        self.bio = (
-            f"{self.name} is a {self.years_experience}-year veteran coach known for "
-            f"their {self.coaching_style.lower()}. They have coached {len(self.past_teams)} "
-            f"teams with a career record of {self.career_wins}-{self.career_losses}."
-        )
-
+        if gemini_client is None:
+            self.bio= ""
+            return
+        
+        prompt = f"Write a short coaching bio for a {self.coaching_style} coach named {self.name}."
+        response = gemini_client.generate_content(prompt)
+        self.bio = response.text
     # ---------------------------------------------------------
     # Calculate coach value (used for hiring/firing logic)
     # ---------------------------------------------------------
