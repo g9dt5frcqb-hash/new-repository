@@ -65,8 +65,6 @@ league.create_draft_class()
 
 # Create trade engine
 league.create_trade_engine()
-
-# Create season simulator
 league.create_season_simulator()
 
 # Start draft
