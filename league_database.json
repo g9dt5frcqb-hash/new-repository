@@ -1,0 +1,1791 @@
+[
+  {
+    "id": "ATL-STAR-001",
+    "team": "Atlanta Hawks",
+    "name": "Jalen Johnson",
+    "position": "PF",
+    "height": "6'9\"",
+    "weight": 220,
+    "age": 24,
+    "overall": 88,
+    "potential": 92,
+    "archetype": "Point Forward",
+    "status": "Standard",
+    "badges": [
+      "Playmaking",
+      "Slashing",
+      "Rebounder"
+    ],
+    "contract": {
+      "years": 4,
+      "salary": 28000000
+    }
+  },
+  {
+    "id": "ATL-STAR-002",
+    "team": "Atlanta Hawks",
+    "name": "Zaccharie Risacher",
+    "position": "SF",
+    "height": "6'9\"",
+    "weight": 204,
+    "age": 20,
+    "overall": 84,
+    "potential": 92,
+    "archetype": "Two-Way Wing",
+    "status": "Standard",
+    "badges": [
+      "On-Ball Defense",
+      "Off-Ball Movement"
+    ],
+    "contract": {
+      "years": 4,
+      "salary": 9000000
+    }
+  },
+  {
+    "id": "ATL-STD-001",
+    "team": "Atlanta Hawks",
+    "name": "Dyson Daniels",
+    "position": "PG",
+    "height": "6'7\"",
+    "weight": 200,
+    "age": 23,
+    "overall": 81,
+    "potential": 86,
+    "archetype": "Two-Way Guard",
+    "status": "Standard",
+    "badges": [
+      "On-Ball Defense",
+      "Playmaking"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 6000000
+    }
+  },
+  {
+    "id": "ATL-STD-002",
+    "team": "Atlanta Hawks",
+    "name": "CJ McCollum",
+    "position": "PG",
+    "height": "6'3\"",
+    "weight": 190,
+    "age": 34,
+    "overall": 80,
+    "potential": 80,
+    "archetype": "Shot Creator",
+    "status": "Standard",
+    "badges": [
+      "Shot Creation",
+      "Off-Ball Movement"
+    ],
+    "contract": {
+      "years": 2,
+      "salary": 30000000
+    }
+  },
+  {
+    "id": "ATL-STD-003",
+    "team": "Atlanta Hawks",
+    "name": "Gabe Vincent",
+    "position": "PG",
+    "height": "6'3\"",
+    "weight": 200,
+    "age": 29,
+    "overall": 76,
+    "potential": 76,
+    "archetype": "3&D Guard",
+    "status": "Standard",
+    "badges": [
+      "On-Ball Defense"
+    ],
+    "contract": {
+      "years": 2,
+      "salary": 11000000
+    }
+  },
+  {
+    "id": "ATL-STD-004",
+    "team": "Atlanta Hawks",
+    "name": "Nickeil Alexander-Walker",
+    "position": "SG",
+    "height": "6'6\"",
+    "weight": 205,
+    "age": 27,
+    "overall": 80,
+    "potential": 82,
+    "archetype": "Two-Way Guard",
+    "status": "Standard",
+    "badges": [
+      "On-Ball Defense",
+      "Off-Ball Movement"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 9000000
+    }
+  },
+  {
+    "id": "ATL-STD-005",
+    "team": "Atlanta Hawks",
+    "name": "Buddy Hield",
+    "position": "SG",
+    "height": "6'4\"",
+    "weight": 214,
+    "age": 33,
+    "overall": 79,
+    "potential": 79,
+    "archetype": "Sharpshooter",
+    "status": "Standard",
+    "badges": [
+      "Deadeye",
+      "Off-Ball Movement"
+    ],
+    "contract": {
+      "years": 2,
+      "salary": 18000000
+    }
+  },
+  {
+    "id": "ATL-STD-006",
+    "team": "Atlanta Hawks",
+    "name": "Keaton Wallace",
+    "position": "SG",
+    "height": "6'3\"",
+    "weight": 185,
+    "age": 25,
+    "overall": 74,
+    "potential": 78,
+    "archetype": "Slashing Guard",
+    "status": "Standard",
+    "badges": [
+      "Slashing"
+    ],
+    "contract": {
+      "years": 1,
+      "salary": 2000000
+    }
+  },
+  {
+    "id": "ATL-STD-007",
+    "team": "Atlanta Hawks",
+    "name": "Corey Kispert",
+    "position": "SF",
+    "height": "6'7\"",
+    "weight": 220,
+    "age": 26,
+    "overall": 79,
+    "potential": 80,
+    "archetype": "Sharpshooter",
+    "status": "Standard",
+    "badges": [
+      "Deadeye"
+    ],
+    "contract": {
+      "years": 2,
+      "salary": 9000000
+    }
+  },
+  {
+    "id": "ATL-STD-008",
+    "team": "Atlanta Hawks",
+    "name": "Caleb Houstan",
+    "position": "SF",
+    "height": "6'8\"",
+    "weight": 205,
+    "age": 23,
+    "overall": 76,
+    "potential": 82,
+    "archetype": "3&D Wing",
+    "status": "Standard",
+    "badges": [
+      "Off-Ball Movement"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 5000000
+    }
+  },
+  {
+    "id": "ATL-STD-009",
+    "team": "Atlanta Hawks",
+    "name": "Nikola Djurisic",
+    "position": "SF",
+    "height": "6'8\"",
+    "weight": 210,
+    "age": 22,
+    "overall": 75,
+    "potential": 82,
+    "archetype": "Shot Creator",
+    "status": "Standard",
+    "badges": [
+      "Shot Creation"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 4000000
+    }
+  },
+  {
+    "id": "ATL-STD-010",
+    "team": "Atlanta Hawks",
+    "name": "Jonathan Kuminga",
+    "position": "PF",
+    "height": "6'8\"",
+    "weight": 225,
+    "age": 23,
+    "overall": 82,
+    "potential": 88,
+    "archetype": "Slashing Forward",
+    "status": "Standard",
+    "badges": [
+      "Slashing",
+      "Strength"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 12000000
+    }
+  },
+  {
+    "id": "ATL-STD-011",
+    "team": "Atlanta Hawks",
+    "name": "Asa Newell",
+    "position": "PF",
+    "height": "6'10\"",
+    "weight": 215,
+    "age": 19,
+    "overall": 76,
+    "potential": 88,
+    "archetype": "Stretch Forward",
+    "status": "Standard",
+    "badges": [
+      "Stretch Big"
+    ],
+    "contract": {
+      "years": 4,
+      "salary": 7000000
+    }
+  },
+  {
+    "id": "ATL-STD-012",
+    "team": "Atlanta Hawks",
+    "name": "Mouhamed Gueye",
+    "position": "PF",
+    "height": "6'11\"",
+    "weight": 210,
+    "age": 22,
+    "overall": 75,
+    "potential": 84,
+    "archetype": "Rim Protector",
+    "status": "Standard",
+    "badges": [
+      "Shot Blocking"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 3000000
+    }
+  },
+  {
+    "id": "ATL-STD-013",
+    "team": "Atlanta Hawks",
+    "name": "Onyeka Okongwu",
+    "position": "C",
+    "height": "6'8\"",
+    "weight": 235,
+    "age": 24,
+    "overall": 81,
+    "potential": 85,
+    "archetype": "Rim Protector",
+    "status": "Standard",
+    "badges": [
+      "Shot Blocking",
+      "Rebounder"
+    ],
+    "contract": {
+      "years": 4,
+      "salary": 14000000
+    }
+  },
+  {
+    "id": "ATL-STD-014",
+    "team": "Atlanta Hawks",
+    "name": "Jock Landale",
+    "position": "C",
+    "height": "6'11\"",
+    "weight": 255,
+    "age": 30,
+    "overall": 77,
+    "potential": 77,
+    "archetype": "Interior Big",
+    "status": "Standard",
+    "badges": [
+      "Rebounder"
+    ],
+    "contract": {
+      "years": 2,
+      "salary": 8000000
+    }
+  },
+  {
+    "id": "ATL-TW-001",
+    "team": "Atlanta Hawks",
+    "name": "RayJ Dennis",
+    "position": "PG",
+    "height": "6'2\"",
+    "weight": 185,
+    "age": 23,
+    "overall": 72,
+    "potential": 80,
+    "archetype": "Playmaking Guard",
+    "status": "Two-Way",
+    "badges": [
+      "Playmaking"
+    ],
+    "contract": {
+      "years": 1,
+      "salary": 500000
+    }
+  },
+  {
+    "id": "ATL-TW-002",
+    "team": "Atlanta Hawks",
+    "name": "Christian Koloko",
+    "position": "C",
+    "height": "7'0\"",
+    "weight": 230,
+    "age": 24,
+    "overall": 73,
+    "potential": 82,
+    "archetype": "Rim Protector",
+    "status": "Two-Way",
+    "badges": [
+      "Shot Blocking",
+      "Rebounder"
+    ],
+    "contract": {
+      "years": 1,
+      "salary": 500000
+    }
+  },
+  {
+    "id": "BOS-STAR-001",
+    "team": "Boston Celtics",
+    "name": "Jaylen Brown",
+    "position": "SF",
+    "height": "6'6\"",
+    "weight": 223,
+    "age": 28,
+    "overall": 90,
+    "potential": 91,
+    "archetype": "Two-Way Wing",
+    "status": "Standard",
+    "badges": [
+      "On-Ball Defense",
+      "Slashing",
+      "Shot Creation"
+    ],
+    "contract": {
+      "years": 5,
+      "salary": 50000000
+    }
+  },
+  {
+    "id": "BOS-STAR-002",
+    "team": "Boston Celtics",
+    "name": "Jayson Tatum",
+    "position": "PF",
+    "height": "6'8\"",
+    "weight": 210,
+    "age": 27,
+    "overall": 96,
+    "potential": 97,
+    "archetype": "Shot Creator",
+    "status": "Standard",
+    "badges": [
+      "Shot Creation",
+      "Clutch",
+      "Off-Ball Movement"
+    ],
+    "contract": {
+      "years": 5,
+      "salary": 52000000
+    }
+  },
+  {
+    "id": "BOS-STD-001",
+    "team": "Boston Celtics",
+    "name": "Derrick White",
+    "position": "PG",
+    "height": "6'4\"",
+    "weight": 190,
+    "age": 31,
+    "overall": 85,
+    "potential": 85,
+    "archetype": "Two-Way Guard",
+    "status": "Standard",
+    "badges": [
+      "On-Ball Defense",
+      "Playmaking"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 18000000
+    }
+  },
+  {
+    "id": "BOS-STD-002",
+    "team": "Boston Celtics",
+    "name": "Payton Pritchard",
+    "position": "PG",
+    "height": "6'1\"",
+    "weight": 195,
+    "age": 28,
+    "overall": 78,
+    "potential": 80,
+    "archetype": "Sharpshooter",
+    "status": "Standard",
+    "badges": [
+      "Off-Ball Movement",
+      "Deadeye"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 8000000
+    }
+  },
+  {
+    "id": "BOS-STD-003",
+    "team": "Boston Celtics",
+    "name": "Baylor Scheierman",
+    "position": "SG",
+    "height": "6'6\"",
+    "weight": 205,
+    "age": 23,
+    "overall": 78,
+    "potential": 84,
+    "archetype": "Sharpshooter",
+    "status": "Standard",
+    "badges": [
+      "Deadeye",
+      "Off-Ball Movement"
+    ],
+    "contract": {
+      "years": 4,
+      "salary": 6000000
+    }
+  },
+  {
+    "id": "BOS-STD-004",
+    "team": "Boston Celtics",
+    "name": "Hugo Gonzalez",
+    "position": "SG",
+    "height": "6'6\"",
+    "weight": 210,
+    "age": 20,
+    "overall": 77,
+    "potential": 88,
+    "archetype": "Two-Way Wing",
+    "status": "Standard",
+    "badges": [
+      "On-Ball Defense",
+      "Slashing"
+    ],
+    "contract": {
+      "years": 4,
+      "salary": 7000000
+    }
+  },
+  {
+    "id": "BOS-STD-005",
+    "team": "Boston Celtics",
+    "name": "Jordan Walsh",
+    "position": "SF",
+    "height": "6'7\"",
+    "weight": 205,
+    "age": 22,
+    "overall": 76,
+    "potential": 84,
+    "archetype": "Two-Way Wing",
+    "status": "Standard",
+    "badges": [
+      "On-Ball Defense"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 4000000
+    }
+  },
+  {
+    "id": "BOS-STD-006",
+    "team": "Boston Celtics",
+    "name": "Sam Hauser",
+    "position": "PF",
+    "height": "6'8\"",
+    "weight": 215,
+    "age": 27,
+    "overall": 79,
+    "potential": 80,
+    "archetype": "Stretch Forward",
+    "status": "Standard",
+    "badges": [
+      "Stretch Big",
+      "Deadeye"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 6000000
+    }
+  },
+  {
+    "id": "BOS-STD-007",
+    "team": "Boston Celtics",
+    "name": "Luka Garza",
+    "position": "PF",
+    "height": "6'10\"",
+    "weight": 243,
+    "age": 26,
+    "overall": 77,
+    "potential": 80,
+    "archetype": "Interior Big",
+    "status": "Standard",
+    "badges": [
+      "Rebounder",
+      "Strength"
+    ],
+    "contract": {
+      "years": 2,
+      "salary": 3000000
+    }
+  },
+  {
+    "id": "BOS-STD-008",
+    "team": "Boston Celtics",
+    "name": "Nikola Vucevic",
+    "position": "C",
+    "height": "6'10\"",
+    "weight": 260,
+    "age": 35,
+    "overall": 82,
+    "potential": 82,
+    "archetype": "Interior Big",
+    "status": "Standard",
+    "badges": [
+      "Rebounder",
+      "Post Scorer"
+    ],
+    "contract": {
+      "years": 2,
+      "salary": 18000000
+    }
+  },
+  {
+    "id": "BOS-STD-009",
+    "team": "Boston Celtics",
+    "name": "Neemias Queta",
+    "position": "C",
+    "height": "7'0\"",
+    "weight": 245,
+    "age": 25,
+    "overall": 77,
+    "potential": 82,
+    "archetype": "Rim Protector",
+    "status": "Standard",
+    "badges": [
+      "Shot Blocking",
+      "Rebounder"
+    ],
+    "contract": {
+      "years": 2,
+      "salary": 4000000
+    }
+  },
+  {
+    "id": "BOS-STD-010",
+    "team": "Boston Celtics",
+    "name": "Amari Williams",
+    "position": "C",
+    "height": "6'10\"",
+    "weight": 230,
+    "age": 22,
+    "overall": 75,
+    "potential": 84,
+    "archetype": "Rim Protector",
+    "status": "Standard",
+    "badges": [
+      "Shot Blocking"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 3000000
+    }
+  },
+  {
+    "id": "BOS-TW-001",
+    "team": "Boston Celtics",
+    "name": "Max Shulga",
+    "position": "PG",
+    "height": "6'4\"",
+    "weight": 200,
+    "age": 24,
+    "overall": 72,
+    "potential": 78,
+    "archetype": "Playmaking Guard",
+    "status": "Two-Way",
+    "badges": [
+      "Playmaking"
+    ],
+    "contract": {
+      "years": 1,
+      "salary": 500000
+    }
+  },
+  {
+    "id": "BOS-TW-002",
+    "team": "Boston Celtics",
+    "name": "John Tonje",
+    "position": "SG",
+    "height": "6'5\"",
+    "weight": 210,
+    "age": 24,
+    "overall": 72,
+    "potential": 78,
+    "archetype": "Slashing Guard",
+    "status": "Two-Way",
+    "badges": [
+      "Slashing"
+    ],
+    "contract": {
+      "years": 1,
+      "salary": 500000
+    }
+  },
+  {
+    "id": "BOS-TW-003",
+    "team": "Boston Celtics",
+    "name": "Ron Harper Jr.",
+    "position": "SF",
+    "height": "6'6\"",
+    "weight": 240,
+    "age": 25,
+    "overall": 73,
+    "potential": 80,
+    "archetype": "Two-Way Wing",
+    "status": "Two-Way",
+    "badges": [
+      "On-Ball Defense"
+    ],
+    "contract": {
+      "years": 1,
+      "salary": 500000
+    }
+  },
+  {
+    "id": "BKN-STAR-001",
+    "team": "Brooklyn Nets",
+    "name": "Egor Dëmin",
+    "position": "PG",
+    "height": "6'7\"",
+    "weight": 205,
+    "age": 19,
+    "overall": 84,
+    "potential": 94,
+    "archetype": "Playmaking Point Forward",
+    "status": "Standard",
+    "badges": [
+      "Playmaking",
+      "Shot Creation",
+      "Off-Ball Movement"
+    ],
+    "contract": {
+      "years": 4,
+      "salary": 9000000
+    }
+  },
+  {
+    "id": "BKN-STAR-002",
+    "team": "Brooklyn Nets",
+    "name": "Michael Porter Jr.",
+    "position": "SF",
+    "height": "6'10\"",
+    "weight": 218,
+    "age": 27,
+    "overall": 84,
+    "potential": 86,
+    "archetype": "Shot Creator",
+    "status": "Standard",
+    "badges": [
+      "Shot Creation",
+      "Deadeye"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 33000000
+    }
+  },
+  {
+    "id": "BKN-STD-001",
+    "team": "Brooklyn Nets",
+    "name": "Nolan Traoré",
+    "position": "PG",
+    "height": "6'4\"",
+    "weight": 190,
+    "age": 19,
+    "overall": 78,
+    "potential": 88,
+    "archetype": "Slashing Playmaker",
+    "status": "Standard",
+    "badges": [
+      "Slashing",
+      "Playmaking"
+    ],
+    "contract": {
+      "years": 4,
+      "salary": 7000000
+    }
+  },
+  {
+    "id": "BKN-STD-002",
+    "team": "Brooklyn Nets",
+    "name": "Drake Powell",
+    "position": "SG",
+    "height": "6'6\"",
+    "weight": 205,
+    "age": 20,
+    "overall": 79,
+    "potential": 88,
+    "archetype": "Two-Way Wing",
+    "status": "Standard",
+    "badges": [
+      "On-Ball Defense",
+      "Slashing"
+    ],
+    "contract": {
+      "years": 4,
+      "salary": 7000000
+    }
+  },
+  {
+    "id": "BKN-STD-003",
+    "team": "Brooklyn Nets",
+    "name": "Ben Saraf",
+    "position": "SG",
+    "height": "6'5\"",
+    "weight": 195,
+    "age": 20,
+    "overall": 77,
+    "potential": 86,
+    "archetype": "Shot Creator",
+    "status": "Standard",
+    "badges": [
+      "Shot Creation"
+    ],
+    "contract": {
+      "years": 4,
+      "salary": 6000000
+    }
+  },
+  {
+    "id": "BKN-STD-004",
+    "team": "Brooklyn Nets",
+    "name": "Terance Mann",
+    "position": "SG",
+    "height": "6'5\"",
+    "weight": 215,
+    "age": 29,
+    "overall": 78,
+    "potential": 78,
+    "archetype": "Two-Way Guard",
+    "status": "Standard",
+    "badges": [
+      "On-Ball Defense",
+      "Off-Ball Movement"
+    ],
+    "contract": {
+      "years": 2,
+      "salary": 11000000
+    }
+  },
+  {
+    "id": "BKN-STD-005",
+    "team": "Brooklyn Nets",
+    "name": "Ziaire Williams",
+    "position": "SF",
+    "height": "6'9\"",
+    "weight": 190,
+    "age": 24,
+    "overall": 77,
+    "potential": 84,
+    "archetype": "Shot Creator",
+    "status": "Standard",
+    "badges": [
+      "Off-Ball Movement"
+    ],
+    "contract": {
+      "years": 2,
+      "salary": 6000000
+    }
+  },
+  {
+    "id": "BKN-STD-006",
+    "team": "Brooklyn Nets",
+    "name": "Ochai Agbaji",
+    "position": "SF",
+    "height": "6'5\"",
+    "weight": 215,
+    "age": 24,
+    "overall": 78,
+    "potential": 82,
+    "archetype": "3&D Wing",
+    "status": "Standard",
+    "badges": [
+      "On-Ball Defense",
+      "Deadeye"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 9000000
+    }
+  },
+  {
+    "id": "BKN-STD-007",
+    "team": "Brooklyn Nets",
+    "name": "Noah Clowney",
+    "position": "PF",
+    "height": "6'10\"",
+    "weight": 210,
+    "age": 21,
+    "overall": 79,
+    "potential": 86,
+    "archetype": "Rim Protector",
+    "status": "Standard",
+    "badges": [
+      "Shot Blocking",
+      "Rebounder"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 5000000
+    }
+  },
+  {
+    "id": "BKN-STD-008",
+    "team": "Brooklyn Nets",
+    "name": "Danny Wolf",
+    "position": "PF",
+    "height": "7'0\"",
+    "weight": 235,
+    "age": 21,
+    "overall": 77,
+    "potential": 85,
+    "archetype": "Stretch Big",
+    "status": "Standard",
+    "badges": [
+      "Stretch Big"
+    ],
+    "contract": {
+      "years": 4,
+      "salary": 6000000
+    }
+  },
+  {
+    "id": "BKN-STD-009",
+    "team": "Brooklyn Nets",
+    "name": "Jalen Wilson",
+    "position": "PF",
+    "height": "6'8\"",
+    "weight": 225,
+    "age": 24,
+    "overall": 76,
+    "potential": 82,
+    "archetype": "Slashing Forward",
+    "status": "Standard",
+    "badges": [
+      "Slashing"
+    ],
+    "contract": {
+      "years": 2,
+      "salary": 3000000
+    }
+  },
+  {
+    "id": "BKN-STD-010",
+    "team": "Brooklyn Nets",
+    "name": "Josh Minott",
+    "position": "PF",
+    "height": "6'8\"",
+    "weight": 205,
+    "age": 23,
+    "overall": 75,
+    "potential": 82,
+    "archetype": "Slashing Forward",
+    "status": "Standard",
+    "badges": [
+      "Slashing"
+    ],
+    "contract": {
+      "years": 2,
+      "salary": 3000000
+    }
+  },
+  {
+    "id": "BKN-STD-011",
+    "team": "Brooklyn Nets",
+    "name": "Nic Claxton",
+    "position": "C",
+    "height": "6'11\"",
+    "weight": 215,
+    "age": 26,
+    "overall": 84,
+    "potential": 86,
+    "archetype": "Rim Protector",
+    "status": "Standard",
+    "badges": [
+      "Shot Blocking",
+      "Switch Defender"
+    ],
+    "contract": {
+      "years": 4,
+      "salary": 20000000
+    }
+  },
+  {
+    "id": "BKN-STD-012",
+    "team": "Brooklyn Nets",
+    "name": "Day'Ron Sharpe",
+    "position": "C",
+    "height": "6'11\"",
+    "weight": 265,
+    "age": 24,
+    "overall": 77,
+    "potential": 82,
+    "archetype": "Interior Big",
+    "status": "Standard",
+    "badges": [
+      "Rebounder"
+    ],
+    "contract": {
+      "years": 2,
+      "salary": 5000000
+    }
+  },
+  {
+    "id": "BKN-TW-001",
+    "team": "Brooklyn Nets",
+    "name": "Tyson Etienne",
+    "position": "PG",
+    "height": "6'2\"",
+    "weight": 180,
+    "age": 25,
+    "overall": 72,
+    "potential": 78,
+    "archetype": "Shot Creator",
+    "status": "Two-Way",
+    "badges": [
+      "Shot Creation"
+    ],
+    "contract": {
+      "years": 1,
+      "salary": 500000
+    }
+  },
+  {
+    "id": "BKN-TW-002",
+    "team": "Brooklyn Nets",
+    "name": "E.J. Liddell",
+    "position": "C",
+    "height": "6'7\"",
+    "weight": 240,
+    "age": 25,
+    "overall": 73,
+    "potential": 80,
+    "archetype": "Interior Big",
+    "status": "Two-Way",
+    "badges": [
+      "Strength"
+    ],
+    "contract": {
+      "years": 1,
+      "salary": 500000
+    }
+  },
+  {
+    "id": "BKN-TW-003",
+    "team": "Brooklyn Nets",
+    "name": "Chaney Johnson",
+    "position": "PF",
+    "height": "6'7\"",
+    "weight": 215,
+    "age": 24,
+    "overall": 72,
+    "potential": 78,
+    "archetype": "Slashing Forward",
+    "status": "Two-Way",
+    "badges": [
+      "Slashing"
+    ],
+    "contract": {
+      "years": 1,
+      "salary": 500000
+    }
+  },
+  {
+    "id": "CHA-STAR-001",
+    "team": "Charlotte Hornets",
+    "name": "Kon Knueppel",
+    "position": "SG",
+    "height": "6'6\"",
+    "weight": 215,
+    "age": 20,
+    "overall": 84,
+    "potential": 92,
+    "archetype": "Shot Creator",
+    "status": "Standard",
+    "badges": [
+      "Shot Creation",
+      "Off-Ball Movement"
+    ],
+    "contract": {
+      "years": 4,
+      "salary": 9000000
+    }
+  },
+  {
+    "id": "CHA-STAR-002",
+    "team": "Charlotte Hornets",
+    "name": "LaMelo Ball",
+    "position": "PG",
+    "height": "6'7\"",
+    "weight": 190,
+    "age": 24,
+    "overall": 88,
+    "potential": 91,
+    "archetype": "Playmaking Guard",
+    "status": "Standard",
+    "badges": [
+      "Playmaking",
+      "Shot Creation"
+    ],
+    "contract": {
+      "years": 5,
+      "salary": 40000000
+    }
+  },
+  {
+    "id": "CHA-STD-001",
+    "team": "Charlotte Hornets",
+    "name": "Coby White",
+    "position": "PG",
+    "height": "6'5\"",
+    "weight": 195,
+    "age": 26,
+    "overall": 80,
+    "potential": 82,
+    "archetype": "Shot Creator",
+    "status": "Standard",
+    "badges": [
+      "Shot Creation"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 12000000
+    }
+  },
+  {
+    "id": "CHA-STD-002",
+    "team": "Charlotte Hornets",
+    "name": "Tre Mann",
+    "position": "PG",
+    "height": "6'3\"",
+    "weight": 190,
+    "age": 25,
+    "overall": 77,
+    "potential": 80,
+    "archetype": "Shot Creator",
+    "status": "Standard",
+    "badges": [
+      "Shot Creation"
+    ],
+    "contract": {
+      "years": 2,
+      "salary": 4000000
+    }
+  },
+  {
+    "id": "CHA-STD-003",
+    "team": "Charlotte Hornets",
+    "name": "KJ Simpson",
+    "position": "PG",
+    "height": "6'2\"",
+    "weight": 190,
+    "age": 22,
+    "overall": 75,
+    "potential": 82,
+    "archetype": "Playmaking Guard",
+    "status": "Standard",
+    "badges": [
+      "Playmaking"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 3000000
+    }
+  },
+  {
+    "id": "CHA-STD-004",
+    "team": "Charlotte Hornets",
+    "name": "Josh Green",
+    "position": "SG",
+    "height": "6'5\"",
+    "weight": 210,
+    "age": 25,
+    "overall": 78,
+    "potential": 82,
+    "archetype": "Two-Way Wing",
+    "status": "Standard",
+    "badges": [
+      "On-Ball Defense",
+      "Slashing"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 9000000
+    }
+  },
+  {
+    "id": "CHA-STD-005",
+    "team": "Charlotte Hornets",
+    "name": "Sion James",
+    "position": "SG",
+    "height": "6'6\"",
+    "weight": 210,
+    "age": 23,
+    "overall": 75,
+    "potential": 82,
+    "archetype": "Two-Way Guard",
+    "status": "Standard",
+    "badges": [
+      "On-Ball Defense"
+    ],
+    "contract": {
+      "years": 2,
+      "salary": 3000000
+    }
+  },
+  {
+    "id": "CHA-STD-006",
+    "team": "Charlotte Hornets",
+    "name": "Brandon Miller",
+    "position": "SF",
+    "height": "6'9\"",
+    "weight": 200,
+    "age": 22,
+    "overall": 83,
+    "potential": 88,
+    "archetype": "Shot Creator",
+    "status": "Standard",
+    "badges": [
+      "Shot Creation",
+      "Off-Ball Movement"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 10000000
+    }
+  },
+  {
+    "id": "CHA-STD-007",
+    "team": "Charlotte Hornets",
+    "name": "Liam McNeeley",
+    "position": "SF",
+    "height": "6'7\"",
+    "weight": 210,
+    "age": 20,
+    "overall": 76,
+    "potential": 84,
+    "archetype": "Sharpshooter",
+    "status": "Standard",
+    "badges": [
+      "Deadeye"
+    ],
+    "contract": {
+      "years": 4,
+      "salary": 6000000
+    }
+  },
+  {
+    "id": "CHA-STD-008",
+    "team": "Charlotte Hornets",
+    "name": "Pat Connaughton",
+    "position": "SF",
+    "height": "6'5\"",
+    "weight": 210,
+    "age": 33,
+    "overall": 75,
+    "potential": 75,
+    "archetype": "3&D Wing",
+    "status": "Standard",
+    "badges": [
+      "Off-Ball Movement"
+    ],
+    "contract": {
+      "years": 1,
+      "salary": 3000000
+    }
+  },
+  {
+    "id": "CHA-STD-009",
+    "team": "Charlotte Hornets",
+    "name": "Miles Bridges",
+    "position": "PF",
+    "height": "6'7\"",
+    "weight": 225,
+    "age": 28,
+    "overall": 82,
+    "potential": 84,
+    "archetype": "Slashing Forward",
+    "status": "Standard",
+    "badges": [
+      "Slashing",
+      "Strength"
+    ],
+    "contract": {
+      "years": 2,
+      "salary": 18000000
+    }
+  },
+  {
+    "id": "CHA-STD-010",
+    "team": "Charlotte Hornets",
+    "name": "Grant Williams",
+    "position": "PF",
+    "height": "6'6\"",
+    "weight": 240,
+    "age": 27,
+    "overall": 78,
+    "potential": 78,
+    "archetype": "3&D Forward",
+    "status": "Standard",
+    "badges": [
+      "On-Ball Defense",
+      "Strength"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 12000000
+    }
+  },
+  {
+    "id": "CHA-STD-011",
+    "team": "Charlotte Hornets",
+    "name": "Tidjane Salaun",
+    "position": "PF",
+    "height": "6'10\"",
+    "weight": 205,
+    "age": 19,
+    "overall": 76,
+    "potential": 86,
+    "archetype": "Stretch Forward",
+    "status": "Standard",
+    "badges": [
+      "Stretch Big"
+    ],
+    "contract": {
+      "years": 4,
+      "salary": 7000000
+    }
+  },
+  {
+    "id": "CHA-STD-012",
+    "team": "Charlotte Hornets",
+    "name": "Moussa Diabate",
+    "position": "C",
+    "height": "6'11\"",
+    "weight": 210,
+    "age": 23,
+    "overall": 77,
+    "potential": 84,
+    "archetype": "Rim Protector",
+    "status": "Standard",
+    "badges": [
+      "Shot Blocking"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 5000000
+    }
+  },
+  {
+    "id": "CHA-STD-013",
+    "team": "Charlotte Hornets",
+    "name": "Ryan Kalkbrenner",
+    "position": "C",
+    "height": "7'1\"",
+    "weight": 260,
+    "age": 23,
+    "overall": 78,
+    "potential": 82,
+    "archetype": "Interior Big",
+    "status": "Standard",
+    "badges": [
+      "Rebounder",
+      "Shot Blocking"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 6000000
+    }
+  },
+  {
+    "id": "CHA-STD-014",
+    "team": "Charlotte Hornets",
+    "name": "Xavier Tillman Sr.",
+    "position": "C",
+    "height": "6'8\"",
+    "weight": 245,
+    "age": 27,
+    "overall": 77,
+    "potential": 78,
+    "archetype": "Interior Big",
+    "status": "Standard",
+    "badges": [
+      "Rebounder",
+      "Strength"
+    ],
+    "contract": {
+      "years": 2,
+      "salary": 6000000
+    }
+  },
+  {
+    "id": "CHA-TW-001",
+    "team": "Charlotte Hornets",
+    "name": "Antonio Reeves",
+    "position": "SG",
+    "height": "6'6\"",
+    "weight": 195,
+    "age": 23,
+    "overall": 72,
+    "potential": 78,
+    "archetype": "Sharpshooter",
+    "status": "Two-Way",
+    "badges": [
+      "Deadeye"
+    ],
+    "contract": {
+      "years": 1,
+      "salary": 500000
+    }
+  },
+  {
+    "id": "CHA-TW-002",
+    "team": "Charlotte Hornets",
+    "name": "Tosan Evbuomwan",
+    "position": "SF",
+    "height": "6'7\"",
+    "weight": 215,
+    "age": 23,
+    "overall": 72,
+    "potential": 78,
+    "archetype": "Two-Way Wing",
+    "status": "Two-Way",
+    "badges": [
+      "On-Ball Defense"
+    ],
+    "contract": {
+      "years": 1,
+      "salary": 500000
+    }
+  },
+  {
+    "id": "CHA-TW-003",
+    "team": "Charlotte Hornets",
+    "name": "PJ Hall",
+    "position": "C",
+    "height": "6'10\"",
+    "weight": 240,
+    "age": 22,
+    "overall": 72,
+    "potential": 80,
+    "archetype": "Interior Big",
+    "status": "Two-Way",
+    "badges": [
+      "Strength"
+    ],
+    "contract": {
+      "years": 1,
+      "salary": 500000
+    }
+  },
+  {
+    "id": "CHI-STAR-001",
+    "team": "Chicago Bulls",
+    "name": "Matas Buzelis",
+    "position": "PF",
+    "height": "6'10\"",
+    "weight": 210,
+    "age": 21,
+    "overall": 85,
+    "potential": 92,
+    "archetype": "Shot-Creating Forward",
+    "status": "Standard",
+    "badges": [
+      "Shot Creation",
+      "Slashing",
+      "Off-Ball Movement"
+    ],
+    "contract": {
+      "years": 4,
+      "salary": 9000000
+    }
+  },
+  {
+    "id": "CHI-STAR-002",
+    "team": "Chicago Bulls",
+    "name": "Josh Giddey",
+    "position": "PG",
+    "height": "6'8\"",
+    "weight": 210,
+    "age": 23,
+    "overall": 84,
+    "potential": 88,
+    "archetype": "Playmaking Point Forward",
+    "status": "Standard",
+    "badges": [
+      "Playmaking",
+      "Off-Ball Movement"
+    ],
+    "contract": {
+      "years": 4,
+      "salary": 18000000
+    }
+  },
+  {
+    "id": "CHI-STD-001",
+    "team": "Chicago Bulls",
+    "name": "Tre Jones",
+    "position": "PG",
+    "height": "6'1\"",
+    "weight": 185,
+    "age": 26,
+    "overall": 79,
+    "potential": 80,
+    "archetype": "Playmaking Guard",
+    "status": "Standard",
+    "badges": [
+      "Playmaking"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 9000000
+    }
+  },
+  {
+    "id": "CHI-STD-002",
+    "team": "Chicago Bulls",
+    "name": "Rob Dillingham",
+    "position": "PG",
+    "height": "6'2\"",
+    "weight": 170,
+    "age": 20,
+    "overall": 78,
+    "potential": 88,
+    "archetype": "Shot Creator",
+    "status": "Standard",
+    "badges": [
+      "Shot Creation",
+      "Off-Ball Movement"
+    ],
+    "contract": {
+      "years": 4,
+      "salary": 7000000
+    }
+  },
+  {
+    "id": "CHI-STD-003",
+    "team": "Chicago Bulls",
+    "name": "Anfernee Simons",
+    "position": "SG",
+    "height": "6'3\"",
+    "weight": 190,
+    "age": 26,
+    "overall": 84,
+    "potential": 86,
+    "archetype": "Shot Creator",
+    "status": "Standard",
+    "badges": [
+      "Shot Creation",
+      "Deadeye"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 25000000
+    }
+  },
+  {
+    "id": "CHI-STD-004",
+    "team": "Chicago Bulls",
+    "name": "Collin Sexton",
+    "position": "SG",
+    "height": "6'1\"",
+    "weight": 190,
+    "age": 27,
+    "overall": 82,
+    "potential": 83,
+    "archetype": "Slashing Guard",
+    "status": "Standard",
+    "badges": [
+      "Slashing",
+      "Strength"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 18000000
+    }
+  },
+  {
+    "id": "CHI-STD-005",
+    "team": "Chicago Bulls",
+    "name": "Jaden Ivey",
+    "position": "SG",
+    "height": "6'4\"",
+    "weight": 200,
+    "age": 23,
+    "overall": 80,
+    "potential": 86,
+    "archetype": "Slashing Guard",
+    "status": "Standard",
+    "badges": [
+      "Slashing"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 9000000
+    }
+  },
+  {
+    "id": "CHI-STD-006",
+    "team": "Chicago Bulls",
+    "name": "Isaac Okoro",
+    "position": "SF",
+    "height": "6'5\"",
+    "weight": 225,
+    "age": 24,
+    "overall": 79,
+    "potential": 82,
+    "archetype": "Two-Way Wing",
+    "status": "Standard",
+    "badges": [
+      "On-Ball Defense",
+      "Strength"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 12000000
+    }
+  },
+  {
+    "id": "CHI-STD-007",
+    "team": "Chicago Bulls",
+    "name": "Leonard Miller",
+    "position": "SF",
+    "height": "6'10\"",
+    "weight": 210,
+    "age": 22,
+    "overall": 78,
+    "potential": 85,
+    "archetype": "Slashing Forward",
+    "status": "Standard",
+    "badges": [
+      "Slashing"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 7000000
+    }
+  },
+  {
+    "id": "CHI-STD-008",
+    "team": "Chicago Bulls",
+    "name": "Noa Essengue",
+    "position": "SF",
+    "height": "6'7\"",
+    "weight": 210,
+    "age": 20,
+    "overall": 75,
+    "potential": 84,
+    "archetype": "Two-Way Wing",
+    "status": "Standard",
+    "badges": [
+      "On-Ball Defense"
+    ],
+    "contract": {
+      "years": 4,
+      "salary": 6000000
+    }
+  },
+  {
+    "id": "CHI-STD-009",
+    "team": "Chicago Bulls",
+    "name": "Patrick Williams",
+    "position": "PF",
+    "height": "6'7\"",
+    "weight": 215,
+    "age": 24,
+    "overall": 80,
+    "potential": 84,
+    "archetype": "3&D Forward",
+    "status": "Standard",
+    "badges": [
+      "On-Ball Defense",
+      "Strength"
+    ],
+    "contract": {
+      "years": 4,
+      "salary": 16000000
+    }
+  },
+  {
+    "id": "CHI-STD-010",
+    "team": "Chicago Bulls",
+    "name": "Guerschon Yabusele",
+    "position": "PF",
+    "height": "6'8\"",
+    "weight": 260,
+    "age": 30,
+    "overall": 77,
+    "potential": 77,
+    "archetype": "Interior Forward",
+    "status": "Standard",
+    "badges": [
+      "Strength"
+    ],
+    "contract": {
+      "years": 2,
+      "salary": 6000000
+    }
+  },
+  {
+    "id": "CHI-STD-011",
+    "team": "Chicago Bulls",
+    "name": "Jalen Smith",
+    "position": "C",
+    "height": "6'10\"",
+    "weight": 215,
+    "age": 24,
+    "overall": 80,
+    "potential": 84,
+    "archetype": "Stretch Big",
+    "status": "Standard",
+    "badges": [
+      "Stretch Big",
+      "Rebounder"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 10000000
+    }
+  },
+  {
+    "id": "CHI-STD-012",
+    "team": "Chicago Bulls",
+    "name": "Nick Richards",
+    "position": "C",
+    "height": "7'0\"",
+    "weight": 245,
+    "age": 28,
+    "overall": 79,
+    "potential": 80,
+    "archetype": "Interior Big",
+    "status": "Standard",
+    "badges": [
+      "Rebounder",
+      "Shot Blocking"
+    ],
+    "contract": {
+      "years": 3,
+      "salary": 9000000
+    }
+  },
+  {
+    "id": "CHI-STD-013",
+    "team": "Chicago Bulls",
+    "name": "Zach Collins",
+    "position": "C",
+    "height": "6'11\"",
+    "weight": 250,
+    "age": 28,
+    "overall": 78,
+    "potential": 78,
+    "archetype": "Interior Big",
+    "status": "Standard",
+    "badges": [
+      "Rebounder"
+    ],
+    "contract": {
+      "years": 2,
+      "salary": 8000000
+    }
+  },
+  {
+    "id": "CHI-TW-001",
+    "team": "Chicago Bulls",
+    "name": "Yuki Kawamura",
+    "position": "PG",
+    "height": "5'8\"",
+    "weight": 160,
+    "age": 24,
+    "overall": 72,
+    "potential": 78,
+    "archetype": "Playmaking Guard",
+    "status": "Two-Way",
+    "badges": [
+      "Playmaking"
+    ],
+    "contract": {
+      "years": 1,
+      "salary": 500000
+    }
+  },
+  {
+    "id": "CHI-TW-002",
+    "team": "Chicago Bulls",
+    "name": "Lachlan Olbrich",
+    "position": "C",
+    "height": "6'11\"",
+    "weight": 240,
+    "age": 22,
+    "overall": 72,
+    "potential": 80,
+    "archetype": "Interior Big",
+    "status": "Two-Way",
+    "badges": [
+      "Rebounder"
+    ],
+    "contract": {
+      "years": 1,
+      "salary": 500000
+    }
+  },
+  {
+    "id": "CHI-TW-003",
+    "team": "Chicago Bulls",
+    "name": "Mac McClung",
+    "position": "SG",
+    "height": "6'2\"",
+    "weight": 185,
+    "age": 25,
+    "overall": 73,
+    "potential": 78,
+    "archetype": "Shot Creator",
+    "status": "Two-Way",
+    "badges": [
+      "Shot Creation"
+    ],
+    "contract": {
+      "years": 1,
+      "salary": 500000
+    }
+  }
+]
