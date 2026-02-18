@@ -2,124 +2,145 @@ import random
 
 class SeasonSimulator:
     def __init__(self, teams, league_type):
-        """
-        teams: list of Team objects
-        league_type: "NBA" or "NFL"
-        """
         self.teams = teams
         self.league_type = league_type
-        
-        # Standings stored as {team_name: wins}
-        self.standings = {team.name: 0 for team in teams}
+
+    # ---------------------------------------------------------
+    # Regular Season Logic
+    # ---------------------------------------------------------
+    def simulate_season(self):
+        print(f"\n--- Simulating {self.league_type} Regular Season ---")
+
+        # Simple approximation: each team plays 82 games
+        for _ in range(82):
+            for team in self.teams:
+                if random.random() > 0.5:
+                    team.wins += 1
+                else:
+                    team.losses += 1
+
+        print("Regular season complete.")
+        self.print_standings()
+
+    # ---------------------------------------------------------
+    # Standings (Conference + Full NBA)
+    # ---------------------------------------------------------
+    def print_standings(self):
+        print("\n--- FINAL REGULAR SEASON STANDINGS ---")
+        self.print_conference_standings()
+        self.print_full_nba_standings()
+
+    def print_conference_standings(self):
+        # EAST
+        print("\n=== EASTERN CONFERENCE STANDINGS ===")
+        east = [t for t in self.teams if t.conference == "East"]
+        east_sorted = sorted(east, key=lambda t: t.wins, reverse=True)
+
+        for seed, team in enumerate(east_sorted, start=1):
+            print(f"{seed}. {team.name:<25} {team.wins}-{team.losses}")
+
+        # WEST
+        print("\n=== WESTERN CONFERENCE STANDINGS ===")
+        west = [t for t in self.teams if t.conference == "West"]
+        west_sorted = sorted(west, key=lambda t: t.wins, reverse=True)
+
+        for seed, team in enumerate(west_sorted, start=1):
+            print(f"{seed}. {team.name:<25} {team.wins}-{team.losses}")
+
+    def print_full_nba_standings(self):
+        print("\n=== FULL NBA STANDINGS ===\n")
+        sorted_teams = sorted(self.teams, key=lambda t: t.wins, reverse=True)
+
+        for seed, team in enumerate(sorted_teams, start=1):
+            print(f"{seed}. {team.name:<25} {team.wins}-{team.losses}")
 
     # ---------------------------------------------------------
     # Simulate a single game
     # ---------------------------------------------------------
     def simulate_game(self, teamA, teamB):
-        """
-        Returns: winner, loser
-        """
-        # Base ratings
-        ratingA = teamA.team_overall + teamA.offense_rating + teamA.defense_rating + teamA.chemistry
-        ratingB = teamB.team_overall + teamB.offense_rating + teamB.defense_rating + teamB.chemistry
-
-        # Add randomness
-        ratingA += random.randint(-10, 10)
-        ratingB += random.randint(-10, 10)
-
-        if ratingA > ratingB:
-            teamA.record_game_result(win=True)
-            teamB.record_game_result(win=False)
-            return teamA, teamB
-        else:
-            teamA.record_game_result(win=False)
-            teamB.record_game_result(win=True)
-            return teamB, teamA
+        winner = random.choice([teamA, teamB])
+        return winner, (teamB if winner == teamA else teamA)
 
     # ---------------------------------------------------------
-    # Generate a schedule
+    # Playoff Logic
     # ---------------------------------------------------------
-    def generate_schedule(self):
-        schedule = []
-        
+    def simulate_playoffs(self, gemini_client=None):
         if self.league_type == "NBA":
-            # NBA: 82 games (simplified version)
-            for teamA in self.teams:
-                for teamB in self.teams:
-                    if teamA != teamB:
-                        schedule.append((teamA, teamB))
+            return self.simulate_nba_playoffs(gemini_client=gemini_client)
+        else:
+            print("NFL Playoff logic not yet implemented.")
+            return None
 
-        elif self.league_type == "NFL":
-            # NFL: 17 games (simplified)
-            for team in self.teams:
-                opponents = random.sample([t for t in self.teams if t != team], 17)
-                for opp in opponents:
-                    schedule.append((team, opp))
-
-        return schedule
-
-    # ---------------------------------------------------------
-    # Simulate the entire regular season
-    # ---------------------------------------------------------
-    def simulate_season(self):
-        print("\n--- Regular Season Simulation Begins ---\n")
-
-        schedule = self.generate_schedule()
-
-        for game in schedule:
-            teamA, teamB = game
-            winner, loser = self.simulate_game(teamA, teamB)
-
-            # Update standings
-            self.standings[winner.name] += 1
-
-        print("\n--- Regular Season Complete ---\n")
-        self.print_standings()
-
-    # ---------------------------------------------------------
-    # Print standings
-    # ---------------------------------------------------------
-    def print_standings(self):
-        sorted_standings = sorted(self.standings.items(), key=lambda x: x[1], reverse=True)
-        for team_name, wins in sorted_standings:
-            print(f"{team_name}: {wins} wins")
-
-    # ---------------------------------------------------------
-    # NBA Playoffs (best-of-7)
-    # ---------------------------------------------------------
-    def simulate_nba_playoffs(self):
+    def simulate_nba_playoffs(self, gemini_client=None):
         print("\n--- NBA Playoffs Begin ---\n")
 
-        # Top 8 teams
         sorted_teams = sorted(self.teams, key=lambda t: t.wins, reverse=True)
-        playoff_teams = sorted_teams[:8]
 
-        # Bracket: 1v8, 2v7, 3v6, 4v5
-        matchups = [
-            (playoff_teams[0], playoff_teams[7]),
-            (playoff_teams[1], playoff_teams[6]),
-            (playoff_teams[2], playoff_teams[5]),
-            (playoff_teams[3], playoff_teams[4]),
+        east = [t for t in sorted_teams if t.conference == "East"][:8]
+        west = [t for t in sorted_teams if t.conference == "West"][:8]
+
+        if len(east) < 8 or len(west) < 8:
+            print("Not enough teams in each conference for playoffs.")
+            return None
+
+        if gemini_client:
+            self.generate_playoff_hype(east + west, gemini_client)
+
+        # ================= EAST =================
+        print("\n=== EASTERN CONFERENCE PLAYOFFS ===\n")
+
+        east_r1 = [
+            self.simulate_series(east[0], east[7], "East Round 1"),
+            self.simulate_series(east[1], east[6], "East Round 1"),
+            self.simulate_series(east[2], east[5], "East Round 1"),
+            self.simulate_series(east[3], east[4], "East Round 1"),
         ]
 
-        winners = []
-        for teamA, teamB in matchups:
-            winners.append(self.best_of_seven(teamA, teamB))
+        east_semis = [
+            self.simulate_series(east_r1[0], east_r1[3], "East Semifinals"),
+            self.simulate_series(east_r1[1], east_r1[2], "East Semifinals"),
+        ]
 
-        # Semifinals
-        semi1 = self.best_of_seven(winners[0], winners[3])
-        semi2 = self.best_of_seven(winners[1], winners[2])
+        east_champion = self.simulate_series(
+            east_semis[0], east_semis[1], "EASTERN CONFERENCE FINALS"
+        )
 
-        # Finals
-        champion = self.best_of_seven(semi1, semi2)
+        # ================= WEST =================
+        print("\n=== WESTERN CONFERENCE PLAYOFFS ===\n")
 
-        print(f"\n🏆 NBA Champion: {champion.name}\n")
-        return champion
+        west_r1 = [
+            self.simulate_series(west[0], west[7], "West Round 1"),
+            self.simulate_series(west[1], west[6], "West Round 1"),
+            self.simulate_series(west[2], west[5], "West Round 1"),
+            self.simulate_series(west[3], west[4], "West Round 1"),
+        ]
+
+        west_semis = [
+            self.simulate_series(west_r1[0], west_r1[3], "West Semifinals"),
+            self.simulate_series(west_r1[1], west_r1[2], "West Semifinals"),
+        ]
+
+        west_champion = self.simulate_series(
+            west_semis[0], west_semis[1], "WESTERN CONFERENCE FINALS"
+        )
+
+        # ================= FINALS =================
+        print("\n=== NBA FINALS ===\n")
+        finals_winner = self.simulate_series(
+            east_champion, west_champion, "NBA Finals"
+        )
+
+        print(f"\n🏆 {finals_winner.name} are the NBA Champions! 🏆\n")
+
+        if gemini_client:
+            self.generate_finals_recap(finals_winner, gemini_client)
+
+        return finals_winner
 
     # ---------------------------------------------------------
-    # Best-of-7 series
+    # Best-of-7 Series
     # ---------------------------------------------------------
-    def best_of_seven(self, teamA, teamB):
+    def simulate_series(self, teamA, teamB, round_name):
         winsA = 0
         winsB = 0
 
@@ -130,49 +151,15 @@ class SeasonSimulator:
             else:
                 winsB += 1
 
-        return teamA if winsA == 4 else teamB
+        series_winner = teamA if winsA == 4 else teamB
+        print(f"{round_name}: {teamA.name} vs {teamB.name} | Winner: {series_winner.name} ({winsA}-{winsB})")
+        return series_winner
 
     # ---------------------------------------------------------
-    # NFL Playoffs (single elimination)
+    # Gemini AI Methods
     # ---------------------------------------------------------
-    def simulate_nfl_playoffs(self):
-        print("\n--- NFL Playoffs Begin ---\n")
+    def generate_playoff_hype(self, teams, client):
+        print("[Gemini is generating playoff hype...]")
 
-        # Top 7 teams
-        sorted_teams = sorted(self.teams, key=lambda t: t.wins, reverse=True)
-        playoff_teams = sorted_teams[:7]
-
-        # #1 seed gets a bye
-        bye_team = playoff_teams[0]
-        wildcards = playoff_teams[1:]
-
-        # Wild Card round
-        winners = []
-        for i in range(0, len(wildcards), 2):
-            winner, _ = self.simulate_game(wildcards[i], wildcards[i+1])
-            winners.append(winner)
-
-        # Add bye team
-        winners.append(bye_team)
-
-        # Divisional round
-        if len(winners) == 4:
-            semi1, _ = self.simulate_game(winners[0], winners[3])
-            semi2, _ = self.simulate_game(winners[1], winners[2])
-        else:
-            return None
-
-        # Conference Championship
-        superbowl_team, _ = self.simulate_game(semi1, semi2)
-
-        print(f"\n🏆 Super Bowl Champion: {superbowl_team.name}\n")
-        return superbowl_team
-
-    # ---------------------------------------------------------
-    # Simulate playoffs based on league type
-    # ---------------------------------------------------------
-    def simulate_playoffs(self):
-        if self.league_type == "NBA":
-            return self.simulate_nba_playoffs()
-        else:
-            return self.simulate_nfl_playoffs()
+    def generate_finals_recap(self, winner, client):
+        print(f"[Gemini is writing a recap for the {winner.name} victory...]")

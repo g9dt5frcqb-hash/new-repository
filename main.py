@@ -2,15 +2,18 @@ import os
 from dotenv import load_dotenv
 import google.generativeai as genai
 
-load_dotenv()
-genai.configure(api_key=os.getenv("AIzaSyDwJcus2IWoNaF8sYsrrJZAAC1e3-TGXTs"))
+load_dotenv()  # loads GEMINI_API_KEY from .env
+
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+gemini_client = genai.GenerativeModel("gemini-pro")
+
 
 from Team import Team
 from Coach import Coach
 from League import League
 from Player import Player
 
-# Create teams
+
 team1 = Team("Boston Celtics", "East", "Atlantic")
 team2 = Team("Brooklyn Nets", "East", "Atlantic")
 team3 = Team("New York Knicks", "East", "Atlantic")
@@ -57,18 +60,11 @@ teams = [
 ]
 
 
-# Create league
 league = League("NBA", teams)
-
-# Create draft class
 league.create_draft_class()
-
-# Create trade engine
 league.create_trade_engine()
 league.create_season_simulator()
 
-# Start draft
-league.start_draft()
 
-# Start season
-league.start_season()
+league.start_draft()
+league.start_season(gemini_client=gemini_client)

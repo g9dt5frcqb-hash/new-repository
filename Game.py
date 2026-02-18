@@ -10,18 +10,14 @@ class Game:
         # Gemini-ready summary placeholder
         self.summary = self.generate_placeholder_summary()
 
-    # ---------------------------------------------------------
-    # Placeholder summary (Gemini later)
-    # ---------------------------------------------------------
+
     def generate_placeholder_summary(self):
         return (
             f"{self.winner.name} defeated {self.loser.name}. "
             f"Strong performance from the winning side."
         )
 
-    # ---------------------------------------------------------
-    # Summary for logs
-    # ---------------------------------------------------------
+
     def get_summary(self):
         if self.scoreA is not None and self.scoreB is not None:
             return (
